@@ -1,5 +1,5 @@
 ---
-title: Strona główna
+title: Strona głównas
 subtitle: S
 image: img/main_image.jpg
 blurb:
