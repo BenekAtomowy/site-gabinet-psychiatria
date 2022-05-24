@@ -1,0 +1,11 @@
+{{ define "main" }}
+
+{{ partial "jumbotron" (dict "title" .Title "image" .Params.image) }}
+
+
+{{ partial "short-text" (dict "heading" .Params.heading "description" .Params.description)}}
+
+{{ partial "short-text" .Params.intro }}
+
+
+{{end}}

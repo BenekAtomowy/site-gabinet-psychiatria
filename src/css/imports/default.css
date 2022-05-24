@@ -1,0 +1,466 @@
+body {
+    font-family: Arial;
+    font-size: 10pt;
+    text-align: justify;
+    line-height: 1.7em;
+}
+
+a:link,
+a:visited {
+    font-family: Arial;
+    color: #5B9143;
+    font-style: normal;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a img {
+    border: 0px;
+}
+
+p {
+    margin-top: 0px;
+    text-align: justify;
+}
+
+p.ex1 {
+    color: #F8A519;
+}
+
+p.ex2 {
+    color: #F17221;
+}
+
+p.ex3 {
+    color: #5B9143;
+}
+
+p.ex4 {
+    color: #F17221;
+}
+
+li.ex1 {
+    font-size: 12px;
+    color: #92BA02;
+}
+
+li.ex2 {
+    font-size: 12px;
+    color: #5B9143;
+}
+
+li.ex3 {
+    color: #F17221;
+}
+
+li.ex4 {
+    color: #FFF;
+}
+
+h2 {
+    color: #1b3f02;
+}
+
+html,
+body {
+    padding-top: 0;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#pagewidth {
+    width: 875px;
+    text-align: left;
+    margin: 0 auto;
+}
+
+#left {
+    width: 195px;
+    float: left;
+    position: relative;
+    z-index: -10;
+}
+
+#twocols {
+    width: 650px;
+    float: right;
+    position: relative;
+}
+
+#right {
+    width: 205px;
+    float: right;
+    position: relative;
+    z-index: -10
+}
+
+#main {
+    background-color: #FFFFFF;
+    float: left;
+    position: relative;
+    width: 445px;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.clearfix {
+    display: inline-block;
+}
+
+* html .clearfix {
+    height: 1%;
+}
+
+.clearfix {
+    display: block;
+}
+
+.container1 {
+    width: 960px;
+    background: #FFF;
+    margin: 0 auto;
+}
+
+.content1 {
+    background: #FFF;
+    padding: 10px 0;
+    width: 857px;
+    height: 600px;
+}
+
+#opsychoterapii {
+    float: left;
+    left: 40px;
+    position: absolute;
+    top: 90px;
+    width: 100%;
+    z-index: 20;
+}
+
+#onas {
+    float: left;
+    left: 50px;
+    position: absolute;
+    top: 115px;
+    width: 100%;
+    z-index: 20;
+}
+
+#oferta {
+    float: left;
+    left: 30px;
+    position: absolute;
+    top: 140px;
+    width: 100%;
+    z-index: 20;
+}
+
+#galeria {
+    float: left;
+    left: 5px;
+    position: absolute;
+    top: 165px;
+    width: 100%;
+    z-index: 20;
+}
+
+#kontakt {
+    float: left;
+    left: 5px;
+    position: absolute;
+    top: 165px;
+    width: 100%;
+    z-index: 20;
+}
+
+#bg {
+    position: relative;
+    float: left;
+    left: -60px;
+    top: 0px;
+    width: 100%;
+    z-index: 10;
+}
+
+div#menu {
+    position: absolute;
+    width: 100%;
+    height: 25px;
+    padding-left: 10px;
+    z-index: 4;
+}
+
+div#footer {
+    font-size: 8pt;
+    position: relative;
+    width: 100%;
+    top: 30px;
+    text-align: center;
+    color: #000;
+}
+
+div#footer a {
+    color: #000;
+}
+
+div.items-more h3 {
+    display: none;
+}
+
+div.items-more ol {
+    list-style-type: none;
+}
+
+div.breadcrumbs {
+    padding-left: 0px;
+    padding-top: 10px;
+}
+
+div.breadcrumbs,
+div.breadcrumbs a {
+    color: #9bc53e;
+}
+
+.menu1 a,
+.menu1 a:link,
+.menu1 a:visited,
+.menu1 a:hover {
+    outline: none;
+}
+
+.menu1,
+.menu1 ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style-type: none;
+    display: block;
+}
+
+.menu1 li {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    display: block;
+    float: left;
+    padding-left: 15px;
+    position: relative;
+    z-index: 5;
+    background: none;
+}
+
+.menu1 li:hover {
+    z-index: 10000;
+    white-space: normal;
+}
+
+.menu1 li li {
+    float: none;
+}
+
+.menu1 ul {
+    visibility: hidden;
+    position: absolute;
+    z-index: 10;
+    left: 0;
+    top: 0;
+    background: none;
+    min-height: 0;
+    background-image: url('/web/20190109205623im_/http://gabinet-terapia.com/templates/psychoterapia-wieliczka/images/spacer.gif');
+    padding: 10px 30px 30px 30px;
+    margin: -10px 0 0 -30px;
+}
+
+.menu1 li:hover>ul {
+    visibility: visible;
+    top: 100%;
+}
+
+.menu1 li li:hover>ul {
+    top: 0;
+    left: 100%;
+}
+
+.menu1:after,
+.menu1 ul:after {
+    content: ".";
+    height: 0;
+    display: block;
+    visibility: hidden;
+    overflow: hidden;
+    clear: both;
+}
+
+.menu1 {
+    min-height: 0;
+    position: relative;
+    padding: 6px 0px;
+    float: left;
+}
+
+.menu1 ul ul {
+    padding: 30px 30px 30px 10px;
+    margin: -30px 0 0 -10px;
+}
+
+@media print {
+    #leftcol {
+        display: none;
+    }
+
+    #rightcol {
+        display: none;
+    }
+
+    #twocols,
+    #maincol {
+        width: 100%;
+        float: none;
+    }
+}
+
+.content h2 {
+    color: white;
+}
+
+.display_none {
+    display: none;
+}
+
+
+.icontainer {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto
+}
+
+@media (min-width:768px) {
+    .icontainer {
+        width: 100%
+    }
+}
+
+
+
+.irow {
+    margin-right: -15px;
+    margin-left: -15px
+}
+
+.irow:after,
+.irow:before {
+    display: table;
+    content: " "
+}
+
+.irow:after {
+    clear: both
+}
+
+.icol-sm-6,
+.icol-sm-4,
+.icol-sm-8 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    -webkit-box-sizing: border-box;
+}
+
+@media (min-width:768px) {
+    .icol-sm-6 {
+        float: left;
+        width: 50%
+    }
+
+    .icol-sm-4 {
+        float: left;
+        width: 33.33333333%
+    }
+
+    .icol-sm-8 {
+        float: left;
+        width: 66.66666667%
+    }
+}
+
+
+.irow img {
+    width: 100%;
+}
+
+/* CUSTOM */
+
+html{
+    background-color: #FFF !important;
+    width: 100%;
+    height: 100%;
+}
+body{width: 100%;}
+
+.margin-rounded-nav-links{
+    margin-left: -270px;
+}
+
+section.footer{
+    display: block;
+    
+    bottom: 0;
+    font-size: 8pt;
+    position: relative;
+    width: 100%;
+    top: 30px;
+    text-align: center;
+    color: #000;
+}
+section.footer, section.footer p{
+    max-width: none;
+}
+
+.flex li a{
+    white-space: nowrap;
+}
+
+
+/* CUSTOM END */
+
+@media (max-width: 1200px) and (min-width: 993px) {
+
+    .valign {
+        display: flex;
+        align-items: center;
+    }
+}
+
+/*
+     FILE ARCHIVED ON 20:56:23 Jan 09, 2019 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:31:23 Apr 26, 2022.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 77.823
+  exclusion.robots: 0.095
+  exclusion.robots.policy: 0.086
+  RedisCDXSource: 5.15
+  esindex: 0.008
+  LoadShardBlock: 50.185 (3)
+  PetaboxLoader3.datanode: 89.557 (5)
+  CDXLines.iter: 19.768 (3)
+  load_resource: 627.158 (2)
+  PetaboxLoader3.resolve: 526.616 (2)
+*/
