@@ -13,7 +13,7 @@ values:
 
 
       <!--EndFragment-->
-  - heading: Dla kogo psychoterapia ?
+  - heading: Dla kogo psychoterapia?
     text: >-
       <!--StartFragment-->
 
