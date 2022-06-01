@@ -1,6 +1,6 @@
 ---
 title: Kontakt
-logo: img/main_image.jpg
+logo: ""
 contact_entries:
   - heading: Adres
     text: |-
