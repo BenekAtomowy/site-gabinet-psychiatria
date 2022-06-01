@@ -6,11 +6,10 @@ contact_entries:
     text: |-
       Bochnia
       ul. Poniatowskiego 36
-    googleMapsSource: '`<iframe
+    googleMapsSource: <iframe
       src=\"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d641.4624642271995!2d20.4302346!3d49.9766742!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47163b31c6f746dd%3A0x380cf32f7100477!2sKsi%C4%99cia%20J%C3%B3zefa%20Poniatowskiego%2036%2C%2032-700%20Bochnia!5e0!3m2!1spl!2spl!4v1654077630091!5m2!1spl!2spl\"
       width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\"
-      loading=\"lazy\"
-      referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"`'
+      loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>
   - heading: Adres
     text: |-
       Kraków
