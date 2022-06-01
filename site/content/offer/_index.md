@@ -4,24 +4,24 @@ image: ""
 values:
   - heading: Dorośli
     text: >-
-      Z pomocy może skorzystać każdy kto doświadcza różnego rodzaju trudności
-      emocjonalnych utrudniających codzienne funkcjonowanie i nie pozwalających
-      czerpać satysfakcji z życia. Pojawienie się niepokojących symptomów może
-      oznaczać potrzebę zmian w życiu- lepszego poznania siebie, spojrzenia na
-      przeszłe doświadczenia i pojednania się z nimi po to, by zacząć żyć w
-      większej harmonii ze sobą i innymi ludźmi.
+      ###### Z pomocy może skorzystać każdy kto doświadcza różnego rodzaju
+      trudności emocjonalnych utrudniających codzienne funkcjonowanie i nie
+      pozwalających czerpać satysfakcji z życia. Pojawienie się niepokojących
+      symptomów może oznaczać potrzebę zmian w życiu- lepszego poznania siebie,
+      spojrzenia na przeszłe doświadczenia i pojednania się z nimi po to, by
+      zacząć żyć w większej harmonii ze sobą i innymi ludźmi.
 
 
       Warto umówić się na spotkanie z psychologiem w przypadku:
 
 
-      1. niepokojących symptomów (uczuć, myśli, zachowań),
+      * niepokojących symptomów (uczuć, myśli, zachowań),
 
-      2. nowej sytuacji życiowej, w której trudno się odnaleźć,
+      * nowej sytuacji życiowej, w której trudno się odnaleźć,
 
-      3. potrzeby zasięgnięcia porady i wsparcia w sprawie osobistej lub rodzinnej,
+      * potrzeby zasięgnięcia porady i wsparcia w sprawie osobistej lub rodzinnej,
 
-      4. chęci poszerzenia wiedzy na temat psychicznego funkcjonowania człowieka oraz lepszego porozumiewania się z innymi.
+      * chęci poszerzenia wiedzy na temat psychicznego funkcjonowania człowieka oraz lepszego porozumiewania się z innymi.
 
 
       Oferowane formy pracy z dorosłymi:
