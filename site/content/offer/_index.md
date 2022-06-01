@@ -1,45 +1,61 @@
 ---
-title: "Values"
-image: /img/about-jumbotron.jpg
+title: Oferta
+image: ""
 values:
-  - heading: "Shade-grown coffee"
-    text: >
-      Coffee is a small tree or shrub that grows in the forest
-      understory in its wild form, and traditionally was grown
-      commercially under other trees that provided shade. The
-      forest-like structure of shade coffee farms provides habitat for
-      a great number of migratory and resident species.
-    imageUrl: "/img/about-shade-grown.jpg"
-  - heading: "Single origin"
-    text: >
-      Single-origin coffee is coffee grown within a single known
-      geographic origin. Sometimes, this is a single farm or a
-      specific collection of beans from a single country. The name of
-      the coffee is then usually the place it was grown to whatever
-      degree available.
-    imageUrl: "/img/about-single-origin.jpg"
-  - heading: "Sustainable farming"
-    text: >
-      Sustainable agriculture is farming in sustainable ways based on
-      an understanding of ecosystem services, the study of
-      relationships between organisms and their environment. What
-      grows where and how it is grown are a matter of choice and
-      careful consideration for nature and communities.
-    imageUrl: "/img/about-sustainable-farming.jpg"
-  - heading: "Direct sourcing"
-    text: >
-      We want to truly empower the communities that bring amazing
-      coffee to you. That’s why we reinvest 20% of our profits into
-      farms, local businesses and schools everywhere our coffee is
-      grown. You can see the communities grow and learn more about
-      coffee farming on our blog.
-    imageUrl: "/img/about-direct-sourcing.jpg"
-  - heading: "Reinvest profits"
-    text: >
-      We want to truly empower the communities that bring amazing
-      coffee to you. That’s why we reinvest 20% of our profits into
-      farms, local businesses and schools everywhere our coffee is
-      grown. You can see the communities grow and learn more about
-      coffee farming on our blog.
-    imageUrl: "/img/about-reinvest-profits.jpg"
+  - heading: Dorośli
+    text: >-
+      <!--StartFragment-->
+
+
+      Z pomocy może skorzystać każdy kto doświadcza różnego rodzaju trudności emocjonalnych utrudniających codzienne funkcjonowanie i nie pozwalających czerpać satysfakcji z życia. Pojawienie się niepokojących symptomów może oznaczać potrzebę zmian w życiu- lepszego poznania siebie, spojrzenia na przeszłe doświadczenia i pojednania się z nimi po to, by zacząć żyć w większej harmonii ze sobą i innymi ludźmi.
+
+
+      Warto umówić się na spotkanie z psychologiem w przypadku:
+
+
+      * niepokojących symptomów (uczuć, myśli, zachowań),
+
+      * nowej sytuacji życiowej, w której trudno się odnaleźć,
+
+      * potrzeby zasięgnięcia porady i wsparcia w sprawie osobistej lub rodzinnej,
+
+      * chęci poszerzenia wiedzy na temat psychicznego funkcjonowania człowieka oraz lepszego porozumiewania się z innymi.
+
+
+      Oferowane formy pracy z dorosłymi:
+
+
+      * psychoterapia indywidualna
+
+      * porady i konsultacje
+
+      * psychoedukacja
+
+
+      <!--EndFragment-->
+    imageUrl: ""
+  - heading: Dzieci i młodzież
+    text: >-
+      <!--StartFragment-->
+
+
+      Rozwój młodego człowieka to dynamiczny proces, który wymaga wsparcia ze strony rodziny. Czasami rozwój wymaga przejścia przez kryzys. Gdy zachowanie młodego człowieka zaczyna być niepokojące, a rodzic doświadcza bezsilności - warto skorzystać z pomocy specjalisty.
+
+
+      Oferowane formy pracy z dziećmi i młodzieżą:
+
+
+      * konsultacje wychowawcze,
+
+      * diagnoza rozwoju dziecka,
+
+      * spotkania rodzinne rozwijające wzajemną komunikację w rodzinie,
+
+      * zajęcia stymulujące rozwój poznawczy, społeczny i emocjonalny dla dzieci w każdym wieku,
+
+      * psychoterapia dzieci i młodzieży.
+
+
+      <!--EndFragment-->
+    imageUrl: ""
 ---
