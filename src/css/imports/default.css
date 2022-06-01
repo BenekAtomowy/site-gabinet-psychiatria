@@ -1,7 +1,7 @@
 body {
     font-family: Arial;
     font-size: 10pt;
-    text-align: justify;
+    /* text-align: justify; */
     line-height: 1.7em;
 }
 
@@ -23,7 +23,7 @@ a img {
 
 p {
     margin-top: 0px;
-    text-align: justify;
+    /* text-align: justify; */
 }
 
 p.ex1 {
@@ -186,7 +186,7 @@ body {
 #bg {
     position: relative;
     float: left;
-    left: -60px;
+    /* left: -60px; */
     top: 0px;
     width: 100%;
     z-index: 10;
@@ -200,18 +200,20 @@ div#menu {
     z-index: 4;
 }
 
-div#footer {
+/* div#footer {
+    display: flex;
     font-size: 8pt;
-    position: relative;
+    position: fixed;
     width: 100%;
     top: 30px;
+    bottom: 0;
     text-align: center;
     color: #000;
 }
 
 div#footer a {
     color: #000;
-}
+} */
 
 div.items-more h3 {
     display: none;
@@ -415,17 +417,17 @@ body{width: 100%;}
 
 section.footer{
     display: block;
-    
     bottom: 0;
     font-size: 8pt;
-    position: relative;
+    position: fixed;
     width: 100%;
-    top: 30px;
     text-align: center;
     color: #000;
+    background-color: rgb(91, 145, 67, 0.8);
 }
 section.footer, section.footer p{
     max-width: none;
+    margin-bottom: 0;
 }
 
 .flex li a{
@@ -464,3 +466,52 @@ playback timings (ms):
   load_resource: 627.158 (2)
   PetaboxLoader3.resolve: 526.616 (2)
 */
+
+
+.short-text-content ul {
+    list-style-type: circle;
+  }  
+              
+  .short-text-content ul li {
+    list-style: none;
+    position: relative;
+    padding: 3px 0 2px 25px;
+    margin: 0 0 0 10px
+  }
+  
+  .short-text-content ul li::before {
+    content: '-';
+    position: absolute;
+    top: 6px;
+    left: 0;
+  }
+  .short-text-content p{
+      margin-top: 15px;
+  }
+
+  .panel_cookie{
+      position: relative;
+      padding: 10px 0;
+
+  }
+  
+  .cookie-close{
+      position: absolute;
+      right: 0px;
+      bottom: 2px;
+      background-color: rgb(91, 145, 67, 0);;
+  }
+  .cookie-close:hover{
+    cursor:pointer;
+}
+
+  .panel_cookie a:link,
+  .panel_cookie a:visited {
+    color: white;
+}
+  body{
+      height: 100vh;
+  }
+  .content-wrapper{
+      padding-bottom: 80px;
+  }

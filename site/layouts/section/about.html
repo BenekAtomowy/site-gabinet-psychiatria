@@ -2,10 +2,10 @@
 
 {{ partial "jumbotron" (dict "title" .Title "image" .Params.image) }}
 
+<div class="mw7 center ph3 pt4">
+    {{ partial "short-text" (dict "heading" .Params.heading "description" .Params.description)}}
 
-{{ partial "short-text" (dict "heading" .Params.heading "description" .Params.description)}}
-
-{{ partial "short-text" .Params.intro }}
-
+    {{ partial "short-text" .Params.intro }}
+</div>
 
 {{end}}

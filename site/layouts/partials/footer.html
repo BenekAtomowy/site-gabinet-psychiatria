@@ -53,19 +53,47 @@
 <script src="/app.js"></script> -->
 
 <section class="footer">
-	<p style="text-align: center;">©2022 Wszelkie prawa zastrzeżone 
-		<a href="https://web.archive.org/web/20181227154437/http://www.gabinet-terapia.com/" target="_self"
-			title="Gabinet psychoterapii i psychoedukacji">gabinet-terapia.com</a>
-			<br>
-			<a href="https://web.archive.org/web/20181227154437/http://gabinet-terapia.com/polityka-prywatno%C5%9Bci.html">Polityka prywatności</a>
-		</p>
-	<div id="panel_cookie_dol" class="panel_cookie">
+	<div id="panel_cookie_dol" class="panel_cookie" style="display: none;">
 		<div class="tresc">
 			<h4>Informacje o plikach cookie</h4>
-			<p>Ta strona używa plików Cookies. Dowiedz się więcej o celu ich używania i możliwości zmiany ustawień Cookies w przeglądarce. 
-				<a href="https://web.archive.org/web/20181227154437/http://gabinet-terapia.com/polityka-prywatno%C5%9Bci.html">Czytaj więcej...</a>
-				</p>
+			<p>Ta strona używa plików Cookies. Dowiedz się więcej o celu ich używania i możliwości zmiany ustawień
+				Cookies w przeglądarce.
+				<a href="/privacy_policy">Czytaj więcej...</a>
+			</p>
 		</div>
-		<input type="button" id="ukryj" value="Zamknij" onclick="info_cookie();">
+
+		<input type="button" class="cookie-close" id="ukryj" value="X" onclick="info_cookie();">
 	</div>
+	<p style="text-align: center; background-color: white; padding: 10px 0">©2022 Wszelkie prawa zastrzeżone
+		<a href="/" target="_self" title="Gabinet psychoterapii i psychoedukacji">gabinet-terapia.com</a>
+		<br>
+		<a href="/privacy_policy">Polityka prywatności</a>
+	</p>
+
 </section>
+
+
+
+<script type="text/javascript">
+	window.onload = function() {
+		console.log(document.cookie)
+		if(!document.cookie.includes("info_cookie")){
+			console.log("cookie")
+			document.getElementById('panel_cookie_dol').style.display = 'block';
+		}
+		new JCaption('img.caption');
+	};
+	function info_cookie() {
+		var exdays = 180;
+		var exdate = new Date();
+		exdate.setDate(exdate.getDate() + exdays);
+		document.cookie = 'info_cookie=1;expires=' + exdate.toUTCString() + ";domain=" + window.location.hostname + ";path=/";
+		document.getElementById('panel_cookie_dol').style.display = 'none';
+	}
+	window.addEvent('load', function () {
+		var cookies = document.cookie.split(';');
+		if (!cookies.length)
+			document.getElementById('panel_cookie_dol').style.display = 'none';
+	});
+
+</script>
