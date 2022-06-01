@@ -24,6 +24,8 @@ values:
       * chęci poszerzenia wiedzy na temat psychicznego funkcjonowania człowieka oraz lepszego porozumiewania się z innymi.
 
 
+
+
       Oferowane formy pracy z dorosłymi:
 
 
