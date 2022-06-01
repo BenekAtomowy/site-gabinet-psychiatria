@@ -15,13 +15,13 @@ values:
       Warto umówić się na spotkanie z psychologiem w przypadku:
 
 
-      * niepokojących symptomów (uczuć, myśli, zachowań),
+      1. niepokojących symptomów (uczuć, myśli, zachowań),
 
-      * nowej sytuacji życiowej, w której trudno się odnaleźć,
+      2. nowej sytuacji życiowej, w której trudno się odnaleźć,
 
-      * potrzeby zasięgnięcia porady i wsparcia w sprawie osobistej lub rodzinnej,
+      3. potrzeby zasięgnięcia porady i wsparcia w sprawie osobistej lub rodzinnej,
 
-      * chęci poszerzenia wiedzy na temat psychicznego funkcjonowania człowieka oraz lepszego porozumiewania się z innymi.
+      4. chęci poszerzenia wiedzy na temat psychicznego funkcjonowania człowieka oraz lepszego porozumiewania się z innymi.
 
 
       Oferowane formy pracy z dorosłymi:
