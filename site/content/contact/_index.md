@@ -1,5 +1,5 @@
 ---
-title: Contact
+title: Kontakt
 logo: img/main_image.jpg
 contact_entries:
   - heading: Adres
