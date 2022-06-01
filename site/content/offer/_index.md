@@ -4,10 +4,12 @@ image: ""
 values:
   - heading: Dorośli
     text: >-
-      <!--StartFragment-->
-
-
-      Z pomocy może skorzystać każdy kto doświadcza różnego rodzaju trudności emocjonalnych utrudniających codzienne funkcjonowanie i nie pozwalających czerpać satysfakcji z życia. Pojawienie się niepokojących symptomów może oznaczać potrzebę zmian w życiu- lepszego poznania siebie, spojrzenia na przeszłe doświadczenia i pojednania się z nimi po to, by zacząć żyć w większej harmonii ze sobą i innymi ludźmi.
+      Z pomocy może skorzystać każdy kto doświadcza różnego rodzaju trudności
+      emocjonalnych utrudniających codzienne funkcjonowanie i nie pozwalających
+      czerpać satysfakcji z życia. Pojawienie się niepokojących symptomów może
+      oznaczać potrzebę zmian w życiu- lepszego poznania siebie, spojrzenia na
+      przeszłe doświadczenia i pojednania się z nimi po to, by zacząć żyć w
+      większej harmonii ze sobą i innymi ludźmi.
 
 
       Warto umówić się na spotkanie z psychologiem w przypadku:
@@ -30,16 +32,13 @@ values:
       * porady i konsultacje
 
       * psychoedukacja
-
-
-      <!--EndFragment-->
     imageUrl: ""
   - heading: Dzieci i młodzież
     text: >-
-      <!--StartFragment-->
-
-
-      Rozwój młodego człowieka to dynamiczny proces, który wymaga wsparcia ze strony rodziny. Czasami rozwój wymaga przejścia przez kryzys. Gdy zachowanie młodego człowieka zaczyna być niepokojące, a rodzic doświadcza bezsilności - warto skorzystać z pomocy specjalisty.
+      Rozwój młodego człowieka to dynamiczny proces, który wymaga wsparcia ze
+      strony rodziny. Czasami rozwój wymaga przejścia przez kryzys. Gdy
+      zachowanie młodego człowieka zaczyna być niepokojące, a rodzic doświadcza
+      bezsilności - warto skorzystać z pomocy specjalisty.
 
 
       Oferowane formy pracy z dziećmi i młodzieżą:
@@ -54,8 +53,5 @@ values:
       * zajęcia stymulujące rozwój poznawczy, społeczny i emocjonalny dla dzieci w każdym wieku,
 
       * psychoterapia dzieci i młodzieży.
-
-
-      <!--EndFragment-->
     imageUrl: ""
 ---
