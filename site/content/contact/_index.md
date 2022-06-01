@@ -16,7 +16,8 @@ contact_entries:
 <!--StartFragment-->
 
 **Gabinet psychoterapii i psychoedukacji**\
-Emilia Ossowska - Mazgaj, tel: 602 292 623\
+Emilia Ossowska - Mazgaj\
+tel: 602 292 623\
 e-mail: [kontakt@gabinet-terapia.com](mailto:kontakt@gabinet-terapia.com)
 
 <!--EndFragment-->
