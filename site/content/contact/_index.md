@@ -5,13 +5,8 @@ contact_entries:
   - heading: Adres
     text: |-
       Bochnia
-      ul. Poniatowskiego 36
-    googleMapsSource: https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d641.4624642271995!2d20.4302346!3d49.9766742!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47163b31c6f746dd%3A0x380cf32f7100477!2sKsi%C4%99cia%20J%C3%B3zefa%20Poniatowskiego%2036%2C%2032-700%20Bochnia!5e0!3m2!1spl!2spl!4v1654077630091!5m2!1spl!2spl"
-  - heading: Adres
-    text: |-
-      Kraków
-      ul. Kielecka 4/6
-    googleMapsSource: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2561.049624640557!2d19.96004951571751!3d50.06663227942421!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47165b23ca6ed543%3A0x19537a8e396d6abb!2sKielecka%204%2C%2031-526%20Krak%C3%B3w!5e0!3m2!1spl!2spl!4v1654077868578!5m2!1spl!2spl
+      ul. Kazimierza Wielkiego 11, 1 piętro
+    googleMapsSource: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d907.3253649154894!2d20.428827463409444!3d49.96816338717232!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47163b35edfd5651%3A0x138e10b8ab3990a6!2sKazimierza%20Wielkiego%2011%2C%2032-700%20Bochnia!5e0!3m2!1spl!2spl!4v1663510472255!5m2!1spl!2spl
 ---
 <!--StartFragment-->
 
