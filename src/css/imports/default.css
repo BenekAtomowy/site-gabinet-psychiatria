@@ -1,8 +1,3 @@
-@font-face {
-    font-family: 'Great Vibes Regular';
-    src: url('/src/fonts/GreatVibes-Regular.ttf');
-}
-
 body {
     font-family: Arial;
     font-size: 10pt;
@@ -144,51 +139,7 @@ body {
     height: 600px;
 }
 
-#opsychoterapii {
-    float: left;
-    left: 50px;
-    position: absolute;
-    top: 90px;
-    width: 100%;
-    z-index: 20;
-}
 
-#onas {
-    float: left;
-    left: 60px;
-    position: absolute;
-    top: 115px;
-    width: 100%;
-    z-index: 20;
-}
-
-#oferta {
-    float: left;
-    left: 40px;
-    position: absolute;
-    top: 140px;
-    width: 100%;
-    z-index: 20;
-}
-
-
-#kontakt {
-    float: left;
-    left: 15px;
-    position: absolute;
-    top: 165px;
-    width: 100%;
-    z-index: 20;
-}
-
-
-div#menu {
-    position: absolute;
-    width: 100%;
-    height: 25px;
-    padding-left: 10px;
-    z-index: 4;
-}
 
 
 div.items-more h3 {
@@ -524,6 +475,7 @@ nav{
   position: relative;
   top: 30px;
   left: 15px;
+  width: 40px;
   
   z-index: 1;
   
@@ -535,6 +487,8 @@ nav{
 {
   text-decoration: none;
   color: white;
+  font-family: 'Great Vibes';
+  font-size: 35px;
   
   transition: color 0.3s ease;
 }
@@ -573,7 +527,7 @@ nav{
   margin-bottom: 5px;
   position: relative;
   
-  background: #cdcdcd;
+  background: white;
   border-radius: 3px;
   
   z-index: 1;
@@ -603,7 +557,6 @@ nav{
 {
   opacity: 1;
   transform: rotate(45deg) translate(-2px, -1px);
-  background: #232323;
 }
 
 /*
@@ -630,8 +583,9 @@ nav{
 #menu
 {
   position: absolute;
-  width: 320px;
-  margin: -100px 0 0 -50px;
+  width: 335px;
+  height: 100vh;
+  margin: -100px 0 0 -30px;
   padding: 40px;
   padding-top: 100px;
   
@@ -645,6 +599,7 @@ nav{
   transform: translate(-100%, 0);
   
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+  font-family: 'Great Vibes';
 }
 
 #menu li
@@ -662,23 +617,17 @@ nav{
 }
 
 span.nav-title{
-    font-size: large;
     color: white;
-
+    font-family: 'Great Vibes';
+    font-size:20px;
+    padding-left: 60px;
 }
 
-@media screen and (min-width: 0px) {
-    span.nav-title{      
-        font-size:smaller;
-        padding-left: 60px;
-    }
-}
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 768px) {
     span.nav-title{
-        font-size: 1rem;
-
+        font-size: 45px;
         padding-left: 0px;
-    
+        line-height: 0;
     }
 }
 
@@ -699,22 +648,46 @@ span.nav-title{
     background-color: rgb(91, 145, 67, 0.8);
     height: fit-content;
     margin : 0 15px;
-    padding: 10px 15px;
+    padding: 30px 15px 70px ;
+    position: relative;
+    color: white;
+    font-family: 'Great Vibes';
+}
+
+.quote-text{
+    font-size: 25px;
+    font-style: italic;
     
 }
 
 @media screen and (min-width: 700px) {
     .quote {
         margin : 0 200px;
-        padding: 50px 20px;
+        padding: 50px 20px 100px;
+    }
+    .quote-text{
+        font-size: 40px;
+        font-style: italic;
     }
 }
 
-.quote-text{
-    font-size: 1.6rem;
-    font-style: italic;
-}
+
 
 .quote-author{
+    
     text-align: right;
+    font-size: 1rem;
+    position: absolute;
+    right: 50px;
+    bottom: 20px;
+}
+
+h1, h2, h3 {
+    font-family: 'Great Vibes' !important;
+}
+
+
+.bg-green{
+    background-color: rgb(91, 145, 67, 0.8);
+    color: white;
 }
