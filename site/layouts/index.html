@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-{{ partial "home" (dict "imageUrl" .Params.image) }}
+{{ partial "home" (dict "imageUrl" .Params.image "quoteAuthor" .Params.quoteAuthor "quoteText" .Params.quoteText ) }}
 
 <!-- {{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle) }}
 

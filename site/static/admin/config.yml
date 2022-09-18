@@ -25,9 +25,11 @@ collections: # A list of collections the CMS should be able to edit
         label: "Strona główna"
         name: "home"
         fields:
-          - {label: Title, name: title, widget: string}
+          - {label: Tytuł, name: title, widget: string}
           # - {label: Subtitle, name: subtitle, widget: string}
-          - {label: Image, name: image, widget: image}
+          - {label: Obrazek strony głównej, name: image, widget: image}
+          - {label: Cytat, name: quoteText, widget: string}
+          - {label: Autor cytatu, name: quoteAuthor, widget: string}
           # - {label: "Blurb", name: blurb, widget: object, fields: [
           #     {label: "Heading", name: "heading", widget: string},
           #     {label: "Text", name: "text", widget: "text"}]}
@@ -44,31 +46,31 @@ collections: # A list of collections the CMS should be able to edit
         label: "Kontakt"
         name: "contact"
         fields:
-          - {label: Title, name: title, widget: string}
+          - {label: Tytuł, name: title, widget: string}
           - {label: Logo, name: logo, widget: image, required: false}
-          - {label: Body, name: body, widget: markdown}
-          - label: Contact Entries
+          - {label: Zawartość, name: body, widget: markdown}
+          - label: Adresy
             name: contact_entries
             widget: list
             fields:
-              - label: Heading
+              - label: Nagłówek
                 name: heading
                 widget: string
-              - label: Text
+              - label: Adres
                 name: text
                 widget: text
-              - label: Google maps embeded source
+              - label: Link do Google Maps
                 name: googleMapsSource
                 widget: text
       - file: "site/content/about/_index.md"
         label: "O mnie"
         name: "about"
         fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Image, name: image, widget: image}
-          - {label: Heading, name: heading, widget: string}
-          - {label: Description, name: description, widget: markdown}
-          - {label: Intro, name: intro, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: markdown}]}
+          - {label: Tytuł, name: title, widget: string}
+          - {label: Obrazek, name: image, widget: image}
+          - {label: Nagłówek, name: heading, widget: string}
+          - {label: Zawartość, name: description, widget: markdown}
+          - {label: Druga sekcja, name: intro, widget: object, fields: [{label: Nagłówek, name: heading, widget: string}, {label: Zawartość, name: description, widget: markdown}]}
           # - {label: Main, name: main, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: Image1, name: image1, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}, {label: Image2, name: image2, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}, {label: Image3, name: image3, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}]}
           # - {label: Testimonials, name: testimonials, widget: list, fields: [{label: Quote, name: quote, widget: string}, {label: Author, name: author, widget: string}]}
           # - {label: Full_image, name: full_image, widget: image}
@@ -77,28 +79,28 @@ collections: # A list of collections the CMS should be able to edit
         label: "Oferta"
         name: "offer"
         fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Image, name: image, widget: image, required: false}
+          - {label: Tytuł, name: title, widget: string}
+          - {label: Obrazek, name: image, widget: image, required: false}
           - label: Oferty
             name: values
             widget: list
             fields:
-              - {label: Heading, name: heading, widget: string}
-              - {label: Text, name: text, widget: markdown}
-              - {label: Image, name: imageUrl, widget: image, required: false}
+              - {label: Nagłówek, name: heading, widget: string}
+              - {label: Zawartość, name: text, widget: markdown}
+              - {label: Obrazek, name: imageUrl, widget: image, required: false}
       - file: "site/content/insights/_index.md"
         label: "O psychoterapii"
         name: "insights"
         fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Image, name: image, widget: image, required: false}
+          - {label: Tytuł, name: title, widget: string}
+          - {label: Obrazek, name: image, widget: image, required: false}
           - label: Wpisy
             name: values
             widget: list
             fields:
-              - {label: Heading, name: heading, widget: string}
-              - {label: Text, name: text, widget: markdown}
-              - {label: Image, name: imageUrl, widget: image, required: false}
+              - {label: Nagłówek, name: heading, widget: string}
+              - {label: Zawartość, name: text, widget: markdown}
+              - {label: Obrazek, name: imageUrl, widget: image, required: false}
       - file: "site/content/privacy_policy/_index.md"
         label: "Polityka prywatności"
         name: "privacy_policy"
