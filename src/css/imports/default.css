@@ -467,7 +467,7 @@ body
 
 nav{
     height: 80px;
-    background-color: rgb(91, 145, 67, 0.8);
+    background-color: white;
 }
 #menuToggle
 {
@@ -487,7 +487,7 @@ nav{
 {
   text-decoration: none;
   color: white;
-  font-family: 'Great Vibes';
+  font-family: 'Gabriola';
   font-size: 35px;
   
   transition: color 0.3s ease;
@@ -527,7 +527,7 @@ nav{
   margin-bottom: 5px;
   position: relative;
   
-  background: white;
+  background: #2a540c;
   border-radius: 3px;
   
   z-index: 1;
@@ -557,6 +557,7 @@ nav{
 {
   opacity: 1;
   transform: rotate(45deg) translate(-2px, -1px);
+  background-color: white;
 }
 
 /*
@@ -599,7 +600,7 @@ nav{
   transform: translate(-100%, 0);
   
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
-  font-family: 'Great Vibes';
+  font-family: 'Gabriola';
 }
 
 #menu li
@@ -617,15 +618,15 @@ nav{
 }
 
 span.nav-title{
-    color: white;
-    font-family: 'Great Vibes';
-    font-size:20px;
+    color: #2a540c;
+    font-family: 'Gabriola';
+    font-size:32px;
     padding-left: 60px;
 }
 
 @media screen and (min-width: 768px) {
     span.nav-title{
-        font-size: 45px;
+        font-size: 52px;
         padding-left: 0px;
         line-height: 0;
     }
@@ -645,17 +646,17 @@ span.nav-title{
 }
 
 .quote{
-    background-color: rgb(91, 145, 67, 0.8);
+    background-color: white;
     height: fit-content;
     margin : 0 15px;
-    padding: 30px 15px 70px ;
+    padding: 30px 15px 50px ;
     position: relative;
-    color: white;
-    font-family: 'Great Vibes';
+    color: #2a540c;
+    font-family: 'Gabriola';
 }
 
 .quote-text{
-    font-size: 25px;
+    font-size: 22px;
     font-style: italic;
     
 }
@@ -663,10 +664,10 @@ span.nav-title{
 @media screen and (min-width: 700px) {
     .quote {
         margin : 0 200px;
-        padding: 50px 20px 100px;
+        padding: 50px 20px 70px;
     }
     .quote-text{
-        font-size: 40px;
+        font-size: 35px;
         font-style: italic;
     }
 }
@@ -678,12 +679,12 @@ span.nav-title{
     text-align: right;
     font-size: 1rem;
     position: absolute;
-    right: 50px;
+    right: 20px;
     bottom: 20px;
 }
 
 h1, h2, h3 {
-    font-family: 'Great Vibes' !important;
+    font-family: 'Gabriola' !important;
 }
 
 
