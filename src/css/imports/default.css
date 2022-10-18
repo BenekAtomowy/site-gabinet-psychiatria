@@ -473,7 +473,7 @@ nav{
 {
   display: block;
   position: relative;
-  top: 30px;
+  top: 26px;
   left: 15px;
   width: 40px;
   
@@ -620,8 +620,9 @@ nav{
 span.nav-title{
     color: #2a540c;
     font-family: 'Gabriola';
-    font-size:32px;
-    padding-left: 60px;
+    font-size:28px;
+    /* padding-left: 60px; */
+    line-height: 0;
 }
 
 @media screen and (min-width: 768px) {
@@ -648,11 +649,12 @@ span.nav-title{
 .quote{
     background-color: white;
     height: fit-content;
-    margin : 0 15px;
-    padding: 30px 15px 50px ;
+    margin : 0 auto;
+    padding: 0px 15px 50px ;
     position: relative;
     color: #2a540c;
     font-family: 'Gabriola';
+    max-width: 1200px;
 }
 
 .quote-text{
@@ -663,7 +665,7 @@ span.nav-title{
 
 @media screen and (min-width: 700px) {
     .quote {
-        margin : 0 200px;
+        margin : 0 auto;
         padding: 50px 20px 70px;
     }
     .quote-text{
@@ -710,3 +712,20 @@ h1, h2, h3 {
     width: 100%;
     height: 450px;
   }
+
+  #bg img{
+    border: 0;
+    max-width: 400px;
+    max-height: 400px;
+    height: auto;
+    width: auto;
+  }
+  @media screen and (min-width: 700px) {
+    #bg img{
+        border: 0;
+        max-width: 700px;
+        max-height: 700px;
+        height: auto;
+        width: auto;
+      }
+}
