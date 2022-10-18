@@ -676,6 +676,8 @@ span.nav-title{
 
 
 
+
+
 .quote-author{
     
     text-align: right;
@@ -729,3 +731,24 @@ h1, h2, h3 {
         width: auto;
       }
 }
+
+div.jumbotron-background{
+    position: relative;
+}
+div.jumbotron-background img.jumbotron-left{
+    position: absolute;
+    height: 500px;
+    top: -80px;
+    left: -228px;
+    z-index: 0;
+    transform: rotate(90deg);
+  }
+
+  div.jumbotron-background img.jumbotron-right{
+    position: absolute;
+    height: 500px;
+    top: -80px;
+    right: -228px;
+    z-index: 0;
+    transform: rotate(-90deg);
+  }
