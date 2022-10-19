@@ -736,6 +736,7 @@ div.jumbotron-background{
     position: relative;
 }
 div.jumbotron-background img.jumbotron-left{
+    display: flex;
     position: absolute;
     height: 500px;
     top: -80px;

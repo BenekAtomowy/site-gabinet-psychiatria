@@ -3,3 +3,5 @@ dist/
 site/data/webpack.json
 /npm-debug.log
 yarn-error.log
+src/fonts/gabriola-cufonfonts-webfont/example.html
+src/fonts/gabriola-cufonfonts-webfont/style.css
