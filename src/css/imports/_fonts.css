@@ -4,5 +4,5 @@
     font-family: 'Gabriola';
     font-style: normal;
     font-weight: normal;
-    src: local('Gabriola'), url('/src/fonts/gabriola-cufonfonts-webfont/gabriola\ Font\ Download.woff') format('woff');
+    src: local('Gabriola'), url('/site/static/fonts/gabriola\ Font\ Download.woff') format('woff');
     }
