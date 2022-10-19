@@ -620,8 +620,7 @@ nav{
 span.nav-title{
     color: #2a540c;
     font-family: 'Gabriola';
-    font-size:28px;
-    /* padding-left: 60px; */
+    font-size: 28px;
     line-height: 0;
 }
 
@@ -666,7 +665,7 @@ span.nav-title{
 @media screen and (min-width: 700px) {
     .quote {
         margin : 0 auto;
-        padding: 50px 20px 70px;
+        padding: 0px 20px 70px;
     }
     .quote-text{
         font-size: 35px;
@@ -735,21 +734,45 @@ h1, h2, h3 {
 div.jumbotron-background{
     position: relative;
 }
+
 div.jumbotron-background img.jumbotron-left{
-    display: flex;
     position: absolute;
-    height: 500px;
-    top: -80px;
-    left: -228px;
+    height: 80px;
+    top: 56px;
+    left: -40px;
     z-index: 0;
     transform: rotate(90deg);
   }
 
   div.jumbotron-background img.jumbotron-right{
     position: absolute;
-    height: 500px;
-    top: -80px;
-    right: -228px;
+    height: 80px;
+    top: 56px;
+    right: -40px;
     z-index: 0;
     transform: rotate(-90deg);
   }
+
+@media screen and (min-width: 700px) {
+div.jumbotron-background img.jumbotron-left{
+    position: absolute;
+    height: 120px;
+    top: 56px;
+    left: -60px;
+  }
+
+  div.jumbotron-background img.jumbotron-right{
+    position: absolute;
+    height: 120px;
+    top: 56px;
+    right: -60px;
+
+  }
+}
+
+@media (width < 300px){
+    .jumbotron-background h1 {
+        padding: 5px;
+        background-color: rgb(91, 145, 67, 0.8);
+    }
+}
