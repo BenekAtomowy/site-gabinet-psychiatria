@@ -1,6 +1,6 @@
 ---
 title: O mnie
-image: img/emilia_ossowska.jpg
+image: img/555a3473-medium-size.jpg
 heading: Wykształcenie
 description: Jestem absolwentką psychologii na wydziale filozoficznym
   Uniwersytetu Jagiellońskiego. W 2012 roku ukończyłam 4 - letni całościowy kurs
